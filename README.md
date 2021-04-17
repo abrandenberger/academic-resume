@@ -1,6 +1,6 @@
 # A Special Academic Resume
 
-This is a LaTeX resume template Its current made for academics but can also be used for software dev resumes or any other use, and is adapted from [Trey Hunner's template](https://github.com/treyhunner/resume). 
+This is a (amazing, beautiful, the best) LaTeX resume template. It is current made for academics, but easily also be used for software dev resumes or any other use, and is adapted from [Trey Hunner's template](https://github.com/treyhunner/resume). 
 
 ## Preview
 | Long Version | Short Version |
