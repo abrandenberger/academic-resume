@@ -1,0 +1,109 @@
+\documentclass{resume}
+% showframe
+\usepackage[left=0.6in,top=0.55in,right=0.6in,bottom=0.5in]{geometry}
+\usepackage{vwcol}
+\usepackage{cfr-lm}  % make old style numbers default
+% \usepackage{apacite} % citations in APA style
+\usepackage{natbib}
+\setlength{\bibsep}{2.5pt}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks=true,% hyperlinks
+  allcolors=DarkRed,%
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE
+\begin{center}
+    \name{Alice Name}
+    \contact
+        {999$\cdot$999$\cdot$9999}
+        {\href{mailto://alice@spaceship.com}{alice@spaceship.com}}
+        {\href{https://alice.ship}{alice.ship}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+\section{Education} 
+\begin{content}
+    {\bf Einstein Labs} {M.Sc. Inertial Frames} \hfill {\bf 2021 --} 
+
+    {\bf Lorentz Institution} \hfill {\bf 2017 -- 2020} \\ 
+    {B.Sc. Time Dilation {\em\&} Length Contraction, Minor Simultaneity} \hfill 
+    {\em CGPA: \textpl{4.0/4.0} \quad Dean's List}
+    
+    \vspace{-.25\baselineskip}
+    
+    {\em Honours:} For the short version of the template, it's better to write your awards here.
+    
+    {\bf \em Technical skills:} Python {\footnotesize (numpy, tensorflow, matplotlib, pandas)}, Java, HTML/CSS, JavaScript (p5.js), C, \LaTeX; Bash, Git; Adobe Photoshop {\em \&} Illustrator, GIMP; Blender.
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
+\section{Research Experience}
+\begin{content}
+
+    \begin{position}{Relativity Research Group}{May 2020 -- present}{Research intern}{Prof.~Hermann Minkowski}{Institution}
+    \item Participated in experiments involving travelling at very high speeds holding clocks and rulers.
+    \item This is an environment for your positions with 5 fields: research group or topic, date, position name, professor or group, institution. 
+    \end{position}
+    \vspace{-.5\baselineskip}
+    Here's a little comment after a position if you want one (not really recommended).
+
+    \begin{position}{Bathtub Labs}{January 2021 -- present}{Junior Tree Researcher}{}{}
+    \item If you want to remove the second line (professor and institution), simply leave those two fields empty. 
+    \end{position}
+
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIRST COLUMN 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent 
+\begin{minipage}[t]{.41\textwidth} \vspace{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS
+\renewcommand{\refname}{Publications}
+\bibliography{bibshort}
+\bibliographystyle{abbrvnat}
+\nocite{*}
+\sectionlineskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
+\section{Awards}
+    \prize{A short prize}{2019, 2020}{If you have space to add this section here, after each prize you need to add a \textbackslash \texttt{medskip} after for spacing.}
+    \medskip
+    
+    \prize{A prize}{2019}{Another description.}
+    
+\sectionlineskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECOND COLUMN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage}
+\hfill 
+\begin{minipage}[t]{.57\textwidth} 
+\vspace{0pt} %important vspace to align at the top! don't delete
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS
+\subsection{Technical Projects} 
+\begin{content}
+    \begin{project}{Einstein Institution}{August 1978 -- present}
+        \item Stood in many elevators careening towards earth, and travelled into the event horizon of black holes. 
+        \item Further mastered holding clocks and rulers.
+    \end{project}
+    
+    \begin{project}{Seminars on Relativity in Space}{Sept. 2020 -- Jan. 2021}
+    \item Organizing the 2021 edition of the conference, hosted on a spaceship travelling at .9 of the speed of light.
+    \end{project}
+    
+    \begin{project}{Lorentzian Geometry}{\normalfont\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}}}
+    \item A project description on its own line so that it can be pretty long, though I can't think of what to write here.  
+    \end{project}
+    
+\end{content}
+\end{minipage}
+
+
+\end{document}

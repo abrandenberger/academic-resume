@@ -1,0 +1,123 @@
+\documentclass{resume}
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks=true,          % hyperlinks
+  allcolors=DarkRed,%
+  pdfborderstyle={/S/U/W 1} % border style will be underline of width 1pt
+}
+
+\usepackage{vwcol}
+\usepackage{natbib}
+\usepackage{cfr-lm}         % make old style numbers default
+\usepackage{graphicx}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE SECTION
+\begin{center}
+    \name{Alice Alice}
+    \contact
+        {999$\cdot$999$\cdot$9999}
+        {\href{mailto://alice@spaceship.com}{alice@spaceship.com}}
+        {\href{https://alice.ship}{alice.ship}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION 
+\section{Education} 
+\begin{content}
+    {\bf Einstein Labs} {M.Sc. Inertial Frames} \hfill {\bf 2021 --} 
+
+    {\bf Lorentz Institution} \hfill {\bf 2017 -- 2020} \\ 
+    {B.Sc. Time Dilation {\em\&} Length Contraction, Minor Simultaneity} \hfill 
+    {\em CGPA: \textpl{4.0/4.0} \quad Dean's List}
+    
+    % \vspace{-.25\baselineskip}
+    % {\em Honours:} If you'd rather list your awards here than in a separate section later, simply write the awards here and comment out that section (and vice versa).
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
+\section{Research Experience}
+\begin{content}
+
+    \begin{position}{Relativity Research Group}{May 2020 -- present}{Research intern}{Prof.~Hermann Minkowski}{Institution}
+    \item Participated in experiments involving travelling at very high speeds holding clocks and rulers.
+    \item This is an environment for your positions with 5 fields: research group or topic, date, position name, professor or group, institution. 
+    \end{position}
+    \vspace{-.5\baselineskip}
+    Here's a little comment after a position if you want one (not really recommended).
+
+    \begin{position}{Bathtub Labs}{January 2021 -- present}{Junior Tree Researcher}{}{}
+    \item If you want to remove the second line (professor and institution), simply leave those two fields empty. 
+    \end{position}
+
+\sectionlineskip
+\end{content}
+\vspace{-3\medskipamount}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS 
+\noindent
+\renewcommand{\refname}{Publications}   % name of the reference section
+\bibliography{biblio.bib}               % bib file
+\bibliographystyle{abbrvnat}            % citation style
+\nocite{*}
+\sectionlineskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
+\section{Awards} 
+\begin{content}
+    \prize[s]{1\textsuperscript{st} place, A Short Prize}{2020}{has its description on the same line and the option is toggled with \texttt{[s]}.}
+    
+    \prize{A Scholarship with a Longer Name}{2020, 2021}{This is the default option and has its description on a separate line. Add as many of these as you would like.}
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS
+\section{Projects \textbf{\em\&} Extracurriculars} 
+\begin{content}
+    
+    \begin{position}{Einstein Institution}{August 1978 -- present}{Experimenter}{}{}
+        \item Stood in many elevators careening towards earth, and travelled into the event horizon of black holes. 
+        \item Further mastered holding clocks and rulers.
+    \end{position}
+    
+    \begin{position}{Seminars on Relativity in Space}{Sept. 2020 -- Jan. 2021}{Organizer}{}{}
+    \item Organizing the 2021 edition of the conference, hosted on a spaceship travelling at .9 of the speed of light.
+    \end{position}
+    
+    \begin{position}{Lorentzian Geometry}{Summer 2020}{\normalfont\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}}}{}{}
+    \item A project description on its own line so that it can be pretty long, though I can't think of what to write here.  
+    \end{position}
+    
+    {\bf Very Simple Project} \enspace {\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}} 
+    {\em A really simple entry with inline description} }
+    \hfill {\bf 2018 -- present}
+
+\sectionlineskip    
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TECHNICAL SKILLS
+\section{Technical Skills}
+\begin{content}
+    \begin{tabular}{ @{} >{\bf}l @{\hspace{6ex}} l }
+        Programming Languages & Python, \LaTeX\ {\em \&} \TeX \\
+        Tools \textbf{\em\&} Technologies & Spaceship steering \\
+        Languages & Earth languages
+    \end{tabular}
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COURSE WORK
+\section{Selected Course Work}
+\begin{tabular}{l l l}
+        \qquad {\bf Mathematics} & \qquad {\bf Physics} & \qquad {\bf Computer Science} \\[.5\smallskipamount]
+        
+        Analysis Sequence & Classical {\em\&} Quantum Mechanics & H. Algorithms {\em \&} Data Structures \\ 
+        Complex Analysis & Thermal {\em \&} Statistical Physics & Mathematical Foundations of Machine Learning \\
+        Abstract  Algebra & General Relativity & Reinforcement Learning \\
+        Cryptography &  Quantum Field Theory & Probabilistic Analysis of Algorithms 
+\end{tabular}
+
+\end{document}
