@@ -5,7 +5,7 @@ This is a (amazing, beautiful, the best) LaTeX resume template. It is current ma
 ## Preview
 | Long Version | Short Version |
 |:---:|:---:|
-| [<img src="https://raw.githubusercontent.com/abrandenberger/academic-resume/main/imgs/long-resume.png">](https://github.com/abrandenberger/academic-resume/blob/main/long-resume.pdf)  | [<img src="https://raw.githubusercontent.com/abrandenberger/academic-resume/main/imgs/short-resume.png">](https://github.com/abrandenberger/academic-resume/blob/main/short-resume.pdf) |
+|[<img src="https://raw.githubusercontent.com/abrandenberger/academic-resume/main/imgs/long-resume.png">](https://github.com/abrandenberger/academic-resume/blob/main/long-resume.pdf)  |[<img src="https://raw.githubusercontent.com/abrandenberger/academic-resume/main/imgs/short-resume.png">](https://github.com/abrandenberger/academic-resume/blob/main/short-resume.pdf) |
 
 ## How to use 
 
